@@ -1,8 +1,8 @@
-doc/ схема и плата в png.
+doc/ СЃС…РµРјР° Рё РїР»Р°С‚Р° РІ png.
 
-OsuKB.sch OsuKB.brd плата схема и библиотека в формате eagle.
+OsuKB.sch OsuKB.brd РїР»Р°С‚Р° СЃС…РµРјР° Рё Р±РёР±Р»РёРѕС‚РµРєР° РІ С„РѕСЂРјР°С‚Рµ eagle.
 
-ExportGerber.cam задание экспорта в gerber/ .
+ExportGerber.cam Р·Р°РґР°РЅРёРµ СЌРєСЃРїРѕСЂС‚Р° РІ gerber/ .
 
-SL6Import.lay6 плата импортированая в Sprint Layout 6.0 из gerber .
+SL6Import.lay6 РїР»Р°С‚Р° РёРјРїРѕСЂС‚РёСЂРѕРІР°РЅР°СЏ РІ Sprint Layout 6.0 РёР· gerber .
 
