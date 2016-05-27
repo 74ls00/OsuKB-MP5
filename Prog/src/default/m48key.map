@@ -1,0 +1,626 @@
+Archive member included because of file (symbol)
+
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+                              main.o (__udivmodqi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                              RGBLED.o (__udivmodhi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm168.o (exit)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              main.o (__do_copy_data)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                              main.o (__do_clear_bss)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memset.o)
+                              main.o (memset)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega168.o)
+                              setup.o (__eerd_byte_m168)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eewr_byte_atmega168.o)
+                              setup.o (__eewr_byte_m168)
+
+Allocating common symbols
+Common symbol       size              file
+
+Setup_key12LED      0x1               setup.o
+usbTxBuf            0xb               usbdrv.o
+KeyScan_keyValue    0x3               KeyScan.o
+usbTxStatus1        0xc               usbdrv.o
+Setup_bgColor       0x1               setup.o
+idleRate            0x1               main.o
+Setup_key12Mode     0x1               setup.o
+usbDeviceAddr       0x1               usbdrv.o
+usbRxToken          0x1               usbdrv.o
+Setup_key3Mode      0x1               setup.o
+usbInputBufOffset   0x1               usbdrv.o
+Setup_scanMode      0x1               setup.o
+dataEE              0x1               setup.o
+usbMsgPtr           0x2               usbdrv.o
+usbRxLen            0x1               usbdrv.o
+usbNewDeviceAddr    0x1               usbdrv.o
+usbCurrentTok       0x1               usbdrv.o
+addEE               0x2               setup.o
+usbConfiguration    0x1               usbdrv.o
+reportBuffer        0x8               main.o
+usbRxBuf            0x16              usbdrv.o
+usbTxStatus3        0xc               usbdrv.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm168.o
+LOAD main.o
+LOAD usbdrvasm.o
+LOAD usbdrv.o
+LOAD softPWM.o
+LOAD RGBLED.o
+LOAD speed.o
+LOAD WorkMode.o
+LOAD setup.o
+LOAD KeyScan.o
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1050
+ *(.vectors)
+ .vectors       0x00000000       0x68 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm168.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x00000068       0x2d main.o
+                0x00000068                usbDescriptorHidReport
+ .progmem.data  0x00000095       0x69 usbdrv.o
+                0x000000c3                usbDescriptorDevice
+                0x00000095                usbDescriptorString0
+                0x000000d5                usbDescriptorConfiguration
+                0x00000099                usbDescriptorStringVendor
+                0x000000b5                usbDescriptorStringDevice
+                0x000000fe                . = ALIGN (0x2)
+                0x000000fe                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000fe        0x0 linker stubs
+ *(.trampolines*)
+                0x000000fe                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000fe                __ctors_start = .
+ *(.ctors)
+                0x000000fe                __ctors_end = .
+                0x000000fe                __dtors_start = .
+ *(.dtors)
+                0x000000fe                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000fe        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm168.o
+                0x000000fe                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000fe        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm168.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000010a       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x0000010a                __do_copy_data
+ .init4         0x00000120       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x00000120                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000130        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm168.o
+ *(.init9)
+ *(.text)
+ .text          0x00000138        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm168.o
+                0x00000138                __vector_24
+                0x00000138                __vector_12
+                0x00000138                __bad_interrupt
+                0x00000138                __vector_6
+                0x00000138                __vector_3
+                0x00000138                __vector_23
+                0x00000138                __vector_25
+                0x00000138                __vector_11
+                0x00000138                __vector_13
+                0x00000138                __vector_17
+                0x00000138                __vector_19
+                0x00000138                __vector_7
+                0x00000138                __vector_5
+                0x00000138                __vector_4
+                0x00000138                __vector_2
+                0x00000138                __vector_21
+                0x00000138                __vector_15
+                0x00000138                __vector_8
+                0x00000138                __vector_14
+                0x00000138                __vector_10
+                0x00000138                __vector_16
+                0x00000138                __vector_18
+                0x00000138                __vector_20
+ .text          0x0000013c      0x1f4 main.o
+                0x0000013c                usbFunctionSetup
+                0x00000206                buildReport
+                0x00000260                main
+                0x00000182                __vector_9
+ .text          0x00000330      0x278 usbdrvasm.o
+                0x00000362                __vector_1
+                0x00000330                usbCrc16
+                0x0000035a                usbCrc16Append
+ .text          0x000005a8      0x2f4 usbdrv.o
+                0x000005ca                usbPoll
+                0x00000888                usbSetInterrupt3
+                0x00000892                usbSetInterrupt
+                0x000005a8                usbInit
+ .text          0x0000089c      0x11a softPWM.o
+                0x0000089c                PWM_init
+                0x000008e0                PWM_Generator
+                0x000008cc                PWM_setOutputLevel_direct
+                0x000008c0                PWM_setOutputLevel
+ .text          0x000009b6      0x178 RGBLED.o
+                0x000009b6                RGB_setColor
+ .text          0x00000b2e      0x11a speed.o
+                0x00000b30                speed_count
+                0x00000b2e                speed_init
+                0x00000b42                speed_CountList_addData
+ .text          0x00000c48       0x58 WorkMode.o
+                0x00000c84                WorkMode_set
+                0x00000c48                WorkMode_CLK
+ .text          0x00000ca0       0xd6 setup.o
+                0x00000cd0                __vector_22
+                0x00000d32                Setup_init
+                0x00000ca0                Setup_setLoop
+ .text          0x00000d76      0x25c KeyScan.o
+                0x00000e26                KeyScan
+                0x00000d76                KeyScan_init
+ .text          0x00000fd2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+ .text          0x00000fd2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00000fd2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00000fd2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000fd2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000fd2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memset.o)
+ .text          0x00000fd2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega168.o)
+ .text          0x00000fd2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eewr_byte_atmega168.o)
+                0x00000fd2                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x00000fd2       0x18 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+                0x00000fd2                __udivmodqi4
+ .text.libgcc   0x00000fea       0x28 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                0x00000fea                __udivmodhi4
+ .text.libgcc   0x00001012        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00001012        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00001012        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x00001012        0xe c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memset.o)
+                0x00001012                memset
+ .text.avr-libc
+                0x00001020       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega168.o)
+                0x00001020                __eerd_byte_m168
+ .text.avr-libc
+                0x00001030       0x1c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eewr_byte_atmega168.o)
+                0x00001032                __eewr_r18_m168
+                0x00001030                __eewr_byte_m168
+                0x0000104c                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000104c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x0000104c                exit
+                0x0000104c                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000104c        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00001050                _etext = .
+
+.data           0x00800100       0x3a load address 0x00001050
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm168.o
+ .data          0x00800100        0x1 main.o
+                0x00800100                protocolVer
+ .data          0x00800101        0x0 usbdrvasm.o
+ .data          0x00800101        0x2 usbdrv.o
+                0x00800101                usbTxLen
+ .data          0x00800103        0xf softPWM.o
+                0x00800103                PWM_PORT
+                0x0080010d                PWM_PORT_IO
+ .data          0x00800112       0x27 RGBLED.o
+                0x00800112                RGBLED_ColorTable
+ .data          0x00800139        0x0 speed.o
+ .data          0x00800139        0x0 WorkMode.o
+ .data          0x00800139        0x0 setup.o
+ .data          0x00800139        0x0 KeyScan.o
+ .data          0x00800139        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+ .data          0x00800139        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00800139        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x00800139        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800139        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800139        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memset.o)
+ .data          0x00800139        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega168.o)
+ .data          0x00800139        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eewr_byte_atmega168.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0080013a                . = ALIGN (0x2)
+ *fill*         0x00800139        0x1 00
+                0x0080013a                _edata = .
+                0x0080013a                PROVIDE (__data_end, .)
+
+.bss            0x0080013a       0x7a
+                0x0080013a                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080013a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm168.o
+ .bss           0x0080013a        0x2 main.o
+                0x0080013b                expectReport
+                0x0080013a                t2counter
+ .bss           0x0080013c        0x0 usbdrvasm.o
+ .bss           0x0080013c        0x1 usbdrv.o
+ .bss           0x0080013d        0xc softPWM.o
+                0x00800143                PWM_shadeTimeLable
+                0x0080013d                PWM_timeLable
+                0x0080013e                PWM_PORT_Shade_goal
+                0x00800144                PWM_outputLevel
+ .bss           0x00800149        0x0 RGBLED.o
+ .bss           0x00800149        0x7 speed.o
+                0x0080014e                speed_Data
+                0x0080014f                unusedCount
+                0x0080014c                speed_CountListNow
+                0x0080014d                speed_CountListTotal
+                0x00800149                speed_CountList
+ .bss           0x00800150        0x2 WorkMode.o
+                0x00800151                WorkMode_timeLable
+                0x00800150                workMode
+ .bss           0x00800152        0x1 setup.o
+                0x00800152                needEE
+ .bss           0x00800153        0xb KeyScan.o
+                0x00800157                keyPushTime
+                0x00800156                lastPushKey
+                0x0080015d                KeyScan_keyChanged
+                0x00800153                KeyScan_state
+ .bss           0x0080015e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+ .bss           0x0080015e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x0080015e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x0080015e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x0080015e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x0080015e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memset.o)
+ .bss           0x0080015e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega168.o)
+ .bss           0x0080015e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eewr_byte_atmega168.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x0080015e        0x9 main.o
+                0x0080015e                idleRate
+                0x0080015f                reportBuffer
+ COMMON         0x00800167       0x42 usbdrv.o
+                0x00800167                usbTxBuf
+                0x00800172                usbTxStatus1
+                0x0080017e                usbDeviceAddr
+                0x0080017f                usbRxToken
+                0x00800180                usbInputBufOffset
+                0x00800181                usbMsgPtr
+                0x00800183                usbRxLen
+                0x00800184                usbNewDeviceAddr
+                0x00800185                usbCurrentTok
+                0x00800186                usbConfiguration
+                0x00800187                usbRxBuf
+                0x0080019d                usbTxStatus3
+ COMMON         0x008001a9        0x8 setup.o
+                0x008001a9                Setup_key12LED
+                0x008001aa                Setup_bgColor
+                0x008001ab                Setup_key12Mode
+                0x008001ac                Setup_key3Mode
+                0x008001ad                Setup_scanMode
+                0x008001ae                dataEE
+                0x008001af                addEE
+ COMMON         0x008001b1        0x3 KeyScan.o
+                0x008001b1                KeyScan_keyValue
+                0x008001b4                PROVIDE (__bss_end, .)
+                0x00001050                __data_load_start = LOADADDR (.data)
+                0x0000108a                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008001b4        0x0
+                0x008001b4                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008001b4                PROVIDE (__noinit_end, .)
+                0x008001b4                _end = .
+                0x008001b4                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x120
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 main.o
+ .debug_aranges
+                0x00000020       0x20 usbdrvasm.o
+ .debug_aranges
+                0x00000040       0x20 usbdrv.o
+ .debug_aranges
+                0x00000060       0x20 softPWM.o
+ .debug_aranges
+                0x00000080       0x20 RGBLED.o
+ .debug_aranges
+                0x000000a0       0x20 speed.o
+ .debug_aranges
+                0x000000c0       0x20 WorkMode.o
+ .debug_aranges
+                0x000000e0       0x20 setup.o
+ .debug_aranges
+                0x00000100       0x20 KeyScan.o
+
+.debug_pubnames
+                0x00000000      0x5d5
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0xb7 main.o
+ .debug_pubnames
+                0x000000b7      0x1b6 usbdrv.o
+ .debug_pubnames
+                0x0000026d       0xd8 softPWM.o
+ .debug_pubnames
+                0x00000345       0x39 RGBLED.o
+ .debug_pubnames
+                0x0000037e       0xb0 speed.o
+ .debug_pubnames
+                0x0000042e       0x58 WorkMode.o
+ .debug_pubnames
+                0x00000486       0xc2 setup.o
+ .debug_pubnames
+                0x00000548       0x8d KeyScan.o
+
+.debug_info     0x00000000     0x15fe
+ *(.debug_info)
+ .debug_info    0x00000000      0x438 main.o
+ .debug_info    0x00000438       0x8c usbdrvasm.o
+ .debug_info    0x000004c4      0x946 usbdrv.o
+ .debug_info    0x00000e0a      0x1bc softPWM.o
+ .debug_info    0x00000fc6      0x121 RGBLED.o
+ .debug_info    0x000010e7      0x14c speed.o
+ .debug_info    0x00001233       0xdd WorkMode.o
+ .debug_info    0x00001310      0x16f setup.o
+ .debug_info    0x0000147f      0x17f KeyScan.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0x8f9
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x1eb main.o
+ .debug_abbrev  0x000001eb       0x14 usbdrvasm.o
+ .debug_abbrev  0x000001ff      0x29e usbdrv.o
+ .debug_abbrev  0x0000049d       0xe0 softPWM.o
+ .debug_abbrev  0x0000057d       0xbd RGBLED.o
+ .debug_abbrev  0x0000063a       0xb2 speed.o
+ .debug_abbrev  0x000006ec       0xa2 WorkMode.o
+ .debug_abbrev  0x0000078e       0xa8 setup.o
+ .debug_abbrev  0x00000836       0xc3 KeyScan.o
+
+.debug_line     0x00000000     0x12ce
+ *(.debug_line)
+ .debug_line    0x00000000      0x352 main.o
+ .debug_line    0x00000352      0x1a2 usbdrvasm.o
+ .debug_line    0x000004f4      0x4a0 usbdrv.o
+ .debug_line    0x00000994      0x19f softPWM.o
+ .debug_line    0x00000b33      0x13e RGBLED.o
+ .debug_line    0x00000c71      0x193 speed.o
+ .debug_line    0x00000e04      0x105 WorkMode.o
+ .debug_line    0x00000f09      0x149 setup.o
+ .debug_line    0x00001052      0x27c KeyScan.o
+
+.debug_frame    0x00000000      0x200
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x50 main.o
+ .debug_frame   0x00000050       0x60 usbdrv.o
+ .debug_frame   0x000000b0       0x50 softPWM.o
+ .debug_frame   0x00000100       0x20 RGBLED.o
+ .debug_frame   0x00000120       0x40 speed.o
+ .debug_frame   0x00000160       0x30 WorkMode.o
+ .debug_frame   0x00000190       0x40 setup.o
+ .debug_frame   0x000001d0       0x30 KeyScan.o
+
+.debug_str      0x00000000      0x7c2
+ *(.debug_str)
+ .debug_str     0x00000000      0x281 main.o
+                                0x2c3 (size before relaxing)
+ .debug_str     0x00000281      0x2af usbdrv.o
+                                0x451 (size before relaxing)
+ .debug_str     0x00000530       0xb1 softPWM.o
+                                0x17c (size before relaxing)
+ .debug_str     0x000005e1       0x39 RGBLED.o
+                                0x113 (size before relaxing)
+ .debug_str     0x0000061a       0xa6 speed.o
+                                0x171 (size before relaxing)
+ .debug_str     0x000006c0       0x4e WorkMode.o
+                                0x122 (size before relaxing)
+ .debug_str     0x0000070e       0x72 setup.o
+                                0x15a (size before relaxing)
+ .debug_str     0x00000780       0x42 KeyScan.o
+                                0x184 (size before relaxing)
+
+.debug_loc      0x00000000      0x7f1
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x49 main.o
+ .debug_loc     0x00000049      0x4a5 usbdrv.o
+ .debug_loc     0x000004ee      0x154 RGBLED.o
+ .debug_loc     0x00000642       0xc0 speed.o
+ .debug_loc     0x00000702       0x1e WorkMode.o
+ .debug_loc     0x00000720       0x53 setup.o
+ .debug_loc     0x00000773       0x7e KeyScan.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(m48key.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x58
+ .debug_ranges  0x00000000       0x58 usbdrv.o
