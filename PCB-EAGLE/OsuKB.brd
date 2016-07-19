@@ -2053,11 +2053,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="35.8775" y="61.9125" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="32.385" y="57.785" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="VD1" library="diode" package="DO34Z7" value="" x="46.0375" y="62.5475" smashed="yes" rot="R90">
+<element name="VD1" library="diode" package="DO34Z7" value="3v6" x="46.0375" y="62.5475" smashed="yes" rot="R90">
 <attribute name="NAME" x="49.4665" y="69.6595" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="48.4505" y="61.0235" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="VD2" library="diode" package="DO34Z7" value="" x="32.0675" y="60.96" smashed="yes" rot="R90">
+<element name="VD2" library="diode" package="DO34Z7" value="3v6" x="32.0675" y="60.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.3215" y="69.6595" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="34.4805" y="59.436" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
@@ -2133,7 +2133,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="46.51375" y="41.275" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="48.73625" y="40.005" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R10" library="rcl" package="R1206W" value="" x="21.59" y="28.575" smashed="yes" rot="MR180">
+<element name="R10" library="rcl" package="R1206W" value="10k" x="21.59" y="28.575" smashed="yes" rot="MR180">
 <attribute name="NAME" x="20.0025" y="26.9875" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="19.685" y="31.115" size="1.27" layer="28" rot="MR180"/>
 </element>
@@ -2163,10 +2163,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </element>
 <element name="U$6" library="osukb" package="PROGRAMMER_KEY" value="PROGRAMMER_5.08" x="51.7525" y="31.115"/>
 <element name="GND" library="osukb" package="KB2" value="KB2" x="13.97" y="20.32"/>
-<element name="S1.1" library="osukb" package="MP5" value="MP5" x="50.00625" y="56.515"/>
-<element name="S1.2" library="osukb" package="MP5" value="MP5" x="56.515" y="56.515"/>
-<element name="S2.1" library="osukb" package="MP5" value="MP5" x="28.09875" y="56.515"/>
-<element name="S2.2" library="osukb" package="MP5" value="MP5" x="21.59" y="56.515"/>
+<element name="S1.1" library="osukb" package="MP5" value="MP9R-1" x="50.00625" y="56.515"/>
+<element name="S1.2" library="osukb" package="MP5" value="" x="56.515" y="56.515"/>
+<element name="S2.1" library="osukb" package="MP5" value="MP9R-1" x="28.09875" y="56.515"/>
+<element name="S2.2" library="osukb" package="MP5" value="" x="21.59" y="56.515"/>
 <element name="ZS" library="rcl" package="C1812K" value="" x="45.72" y="33.9725" smashed="yes" rot="MR270">
 <attribute name="NAME" x="45.747503125" y="37.509996875" size="1.016" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="48.695003125" y="36.2225" size="1.016" layer="28" rot="MR270"/>
@@ -2179,11 +2179,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="23.8125" y="51.054" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="19.685" y="46.736" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R13" library="osukb" package="R1206W" value="" x="60.325" y="53.6575" smashed="yes" rot="MR270">
+<element name="R13" library="osukb" package="R1206W" value="1k" x="60.325" y="53.6575" smashed="yes" rot="MR270">
 <attribute name="NAME" x="58.1025" y="51.1175" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="62.865" y="55.5625" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R14" library="rcl" package="0207/12" value="" x="36.03625" y="42.545" smashed="yes" rot="MR180">
+<element name="R14" library="rcl" package="0207/12" value="1k" x="36.03625" y="42.545" smashed="yes" rot="MR180">
 <attribute name="NAME" x="34.44875" y="43.053" size="1.27" layer="26" ratio="10" rot="MR180"/>
 <attribute name="VALUE" x="33.75025" y="43.2308" size="1.27" layer="28" ratio="10" rot="MR180"/>
 </element>
